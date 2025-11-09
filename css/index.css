@@ -1,0 +1,23 @@
+#root {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap: 2rem;
+}
+
+#root div {
+    width: 25rem;
+    height: 50rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+}
